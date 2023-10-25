@@ -1,0 +1,66 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+#app {
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+}
+
+.heder-container {
+    display: flex;
+    margin-top: 32px;
+}
+
+.header {
+    display: flex;
+    margin-top: 32px;
+    margin-left: 113px;
+    min-width: 1180px;
+    height: 113px;
+    align-items: start;
+}
+
+.question-and-answers {
+    display: flex;
+    margin-left: 900px;
+    justify-content: space-between;
+}
+
+h4 {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    font-family: Source Sans 3;
+}
+
+a {
+    font-weight: 600;
+    font-size: 20px;
+    color: #607CE6;
+    text-decoration: none;
+    font-family: Source Sans 3;
+}
+
+ul {
+    flex: 1;
+    padding: 0;
+    margin: 0;
+}
